@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhuvarshini Muthusamy Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+        section {
+            padding: 2rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .projects, .experience, .education {
+            margin-bottom: 2rem;
+        }
+        .projects h2, .experience h2, .education h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .project-item, .experience-item, .education-item {
+            background-color: #fff;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Madhuvarshini Muthusamy's Portfolio</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#Academics">Academics</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hello! I'm Madhuvarshini Muthusamy, a passionate upcoming full-stack developer.I specilize in modern technologies like Javascript.My mission is to create seamless and efficient user experiences through clean, efficient, and scalable code.
+            And to enhance the growth of the organization by improving and applying my competency at work.
+        </p>
+    </section>
+
+    <section id="projects" class="container projects">
+        <h2>Academics</h2>
+        <div class="project-item">
+            <p><strong></strong> My personal portfolio website showcasing my projects, skills, and contact information.</p>
+
+            <h3>Academic information</h3>
+            <p></p>
+            <p> Pursuing BE in Computer Science and Engineering at Kongu Engineering College,
+                Perundurai with a CGPA of 7.68 (Till 3rd Semester).</p>
+            <p></p>
+        </div>
+        <div class="project-item">
+            <h3>Academic Acheivements</h3>
+            <p>Have participated in the Indian Talent Examination.</p>
+            <p>Participated in Smart India Hackathon 2023.</p>
+            <p>Selected in Neo codeathon final round</p>
+            <p><strong>Paper Presented</strong></p>
+            <p>LI-FI TECHNOLOGY” in Anna University Regional Campus, Coimbatore.</p>
+            <p>“EMOTION DETECTION USING MACHINE LEARNING” in Sri Krishna College of
+                Technology, Coimbatore - AVANTAA’24</p>
+            <p><strong>Project Presented</strong></p>
+            <p>“ACCIDENT PREVENTION USING ALCOHOL SENSORS” at NBA visit, KEC,
+                December 2023.</p>
+                <p><strong>Certification Courses</strong></p>
+                <p>Completed a 2-credit course on 3D Animation.</p>
+                <p>Completed a 3 credit course in privacy and security in social media.</p>
+                <p><strong>Industrial visit</strong></p>
+                <p>Underwent 5 days training at Jay Jay Mills from 19/09/2023 till 23/09/2023.</p>
+                <p>Underwent 9 days training at R.M. Garments from 10/02/2024 to 18/02/2024</p>
+                <p>Visited Lams Automation Lmt., Ooty.</p>
+                <p><strong>Leadership</strong></p>
+                <p>Organized National Level Symposium as a part of MADC Club - SPECTRA’24</p>
+                <p>Organized Symposium as a part of CSE Department - CRESCITA’24</p>
+                <p>performed a better role as class representative in my department for a semester.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <p><strong>Front-End:</strong> HTML, CSS, JavaScript, React,Bootstrap</p>
+        <p><strong>Back-End:</strong> Node.js, Express.js,Python</p>
+        <p><strong>Databases:</strong> MongoDB, MySQL, PostgreSQL</p>
+        <p><strong>Other:</strong> Git, GitHub</p>
+        <p><strong>Area of interest:</strong>Data Structure in c</p>
+    </section>
+
+    <section id="experience" class="container experience">
+        
+        <div class="experience-item">
+            <h3>Projects</h3>
+            <p>Movie review management system using java</p>
+        </div>
+    </section>
+
+    <section id="education" class="container education">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>Bachelor of computer science and engineering</h3>
+            <p><strong>Institution:</strong>Kongu engineering College</p>
+            <p><strong>Graduation Year:</strong> 2026</p>
+        </div>
+        
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Email<a href="madhumuthusamy06@gmail.com">madhumuthusamy06@gmail.com</a></p> 
+        <p>Linkedin <a href="https://www.linkedin.com/in/madhuvarshini-muthusamy-9b304a302/" target="_blank">LinkedIn</a></p>
+        <p>Git<a href="https://github.com/MadhuvarshiniMuthusamy" target="_blank">Git</a></p>
+    </section>
+
+    <footer>
+        <p>Thank you for visiting my portfolio! I look forward to connecting with you and exploring how we can work together to create amazing web experiences.</p>
+    </footer>
+</body>
+</html>
